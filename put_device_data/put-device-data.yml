@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://18.136.105.45:31112
+functions:
+  put-device-data:
+    lang: python3
+    handler: ./put-device-data
+    image: leexha/put-device-data:latest
+
