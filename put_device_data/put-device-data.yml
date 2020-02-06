@@ -4,7 +4,7 @@ provider:
   gateway: http://18.136.105.45:31112
 functions:
   put-device-data:
-    lang: python3
+    lang: python3-custom
     handler: ./put-device-data
-    image: leexha/put-device-data:latest
+    image: leexha/put-device-data:2
 
